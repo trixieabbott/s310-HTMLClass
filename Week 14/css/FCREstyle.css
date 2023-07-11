@@ -1,0 +1,78 @@
+h1 { /*for header*/
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav { /*for navigation*/
+    background-color: lightgray;
+    color: darkgray;
+    padding: 10px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: x-large;
+}
+
+header{ /*for the header under navigation...*/
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    font-family: sans-serif;
+    color: white;
+    background-color: darkblue;     
+    
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer{ /*for footer*/
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+/* we need special formatting for list items*/
+li {
+    font-family: sans-serif;
+    list-style-type: square;
+    background-color: rgb(229, 229, 229);
+
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+
+}
+
+li:hover {
+    color: darkgray;
+
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkred;
+
+}

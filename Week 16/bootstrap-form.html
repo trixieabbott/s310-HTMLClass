@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <style>
+            
+        </style>
+        
+	</head>
+	<body>
+        <div class="container">
+
+            <div class="row">
+
+                <form action="" method="post">
+        
+                    <fieldset>
+                        <legend>Contact Info</legend>
+                            <label for="title_mr">Mr. </label>
+                            <input type="radio" name="title" id="title_mr" value="Mr"> 
+                            <label for="title_ms">Ms. </label>
+                            <input type="radio" name="title" id="title_ms" value="Ms"><br>
+
+                        <div class="input-group">
+                            <label class="input-group-addon input-sm" for="firstname">First Name: </label>
+                            <input class="form-control input-sm" type="text" name="firstname" id="firstname" placeholder="Enter your first name" required><br>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="input-group-addon" for="lastname">Last Name: </label>
+                            <input class="form-control" type="text" name="lastname" id="lastname" required><br>
+                        </div>
+                        
+                        <div class="input-group">
+                        
+                            <label class="input-group-addon" for="state">State: </label>
+                            <select class="form-control" name="state" id="state">
+                                <option></option>
+                                <option value="Alabama">AL</option>
+                                <option value="Alaska">AK</option>
+                                <option value="Arizona">AZ</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                </form>
+                
+            </div>
+            
+		</div>
+	</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        /* BORDERS */
+        
+        table, td, th {
+            border-bottom: 1px solid black;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        /* SIZING */
+    
+        th {
+            height: 30px;
+        }
+
+        /*.colt {
+            height: 40px;
+            width: 200px;
+        }*/
+        
+        table {
+            width: 75%;
+        }
+        
+        /* ALIGNMENT & SPACING */
+        
+        td, th {
+            padding: 5px;
+        }
+        
+        .hleft {
+            text-align: left;
+        }
+        
+        .year {
+            text-align: center;
+        }
+        
+        td {
+            vertical-align: top;
+        }
+        
+        /* HEADER and FOOTER */
+        
+        thead {
+            background-color: #003227;
+            color: white;
+        }
+        
+        tfoot {
+            background-color: #0c120f;
+            color: white;
+            font-size: smaller;
+        }
+        
+        /* PSEUDO CLASSES */
+        
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+        
+        tbody>tr:hover {
+            background-color: #ceffd0;
+        }
+        
+        caption {
+            text-align: left;
+            font-size: x-small;
+            padding: 3px;
+            caption-side: bottom;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Tables</h1>
+    
+    <table>
+        <caption>
+            Fig 1: List of Ridgeway Members
+        </caption>
+        <thead>
+            <tr>
+                <th class="hleft">Member Name</th>
+                <th class="hleft">Nickname</th>
+                <th>Member Since</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="colt">Peyton Manning</td>
+                <td>Omaha</td>
+                <td class="year">2014</td>
+            </tr>
+            <tr>
+                <td>Michael Phelps</td>
+                <td>Superman</td>
+                <td class="year">2016</td>
+            </tr>
+            <tr>
+                <td>Danica Patrick</td>
+                <td></td>
+                <td class="year">2012</td>
+            </tr>
+            <tr>
+                <td>Serena Williams</td>
+                <td>Meka</td>
+                <td class="year">2008</td>
+            </tr>
+            <tr>
+                <td>Michael Jordan</td>
+                <td>MJ<br>Air Jordan</td>
+                <td class="year">1998</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Includes all past and present members</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

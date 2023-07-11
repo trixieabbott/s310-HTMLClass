@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+    <style>
+        
+        form {
+            background-color: slategray;
+            padding: 20px;
+            color: white;
+            border-radius: 10px;
+            
+        }
+        
+        /*input {
+            margin: 3px;
+            
+        }
+        
+        textarea {
+            margin: 3px;
+            
+        }
+        
+        select {
+            margin: 3px;
+            
+        }*/
+        
+        input, textarea, select {
+            margin: 3px;
+        }
+        
+        #email {
+            width: 75%;
+        }
+        
+        #comments {
+            width: 400px;
+            height: 100px;
+        }
+        
+        .button {
+            background-color: white;
+            border: none;
+            padding: 6px 10px 6px 10px;
+            
+        }
+        
+        .button:hover {
+            background-color: burlywood;
+            
+        }
+        
+        fieldset {
+            margin-bottom: 10px;
+            border-radius: 10px;
+            
+        }
+        
+        input:required {
+            border: 1px solid red;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form action="" method="post">
+        
+    <fieldset>
+        <legend>Contact Info</legend>
+        
+        <label for="title_mr">Mr. </label>
+        <input type="radio" name="title" id="title_mr" value="Mr"> 
+        
+        <label for="title_ms">Ms. </label>
+        <input type="radio" name="title" id="title_ms" value="Ms"><br>
+        
+        <label for="firstname">First Name: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required><br>
+        
+        <label for="lastname">Last Name: </label>
+        <input type="text" name="lastname" id="lastname" required><br>
+        
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email"><br>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Other</legend>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"><br>
+        
+        <label for="email_signup">Add to email list? </label> 
+        <input type="checkbox" name="email_signup" id="email_signup"><br>
+        
+        <label for="comments">Comments: </label>
+        <textarea name="comments" id="comments"></textarea><br>
+    </fieldset>
+        
+    <fieldset>
+        <legend>Address</legend>
+        <label for="state">State: </label>
+        <select name="state" id="state">
+            <option></option>
+            <option value="Alabama">AL</option>
+            <option value="Alaska">AK</option>
+            <option value="Arizona">AZ</option>
+        </select><br>
+    </fieldset>
+    <fieldset>
+        <legend>New Input Types</legend>    
+        
+        Date: <input type="date"><br>
+        Number: <input type="number" min="10" max="20"><br>
+        Color: <input type="color">
+        
+    </fieldset>
+        
+        <input class="button" type="submit" name="submit" id="submit" value="Sing Up">
+        
+    
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,160 @@
+/* CSS Styles for Project Future */
+
+body {
+    font-family: sans-serif; 
+}
+
+header { /*project future header*/
+    background-color: lightgray;
+    color: purple;
+
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 { /*style for project future h1*/
+    background-color: lightgray;
+    color: purple;
+
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: plum;
+    color: white;
+}
+
+h3 {
+    padding: 8px;
+    border-radius: 8px;
+    border: black;
+    background-color: pink;
+    color: white;   
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+a {
+    color: dimgrey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+li.events {
+    padding: 15px;
+    background-color: #eeeeee;
+    margin: 6px;
+    border: 1px solid dimgrey;
+    border-radius: 10px;
+}
+
+li.selection:hover {
+    background-color: lightgray;
+}
+
+form{
+    background-color: beige;
+    padding: 20px;
+    color: purple;
+    border-radius: 10px;
+
+}
+
+input, textarea, select {
+    margin: 3px;
+}
+
+.button {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    margin: 6px;
+    
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+}
+.button:hover {
+    background-color: lightgray;
+    color: firebrick;
+}
+
+input {
+    margin: 4px;
+}
+
+label {
+    min-width: 130px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/*added by trixie - BOOTSTRAP ALERTS*/
+.download { 
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.download:hover {
+    background-color: RoyalBlue;
+  }
+
+
+  .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+  }
+  
+  .alert-success hr {
+    border-top-color: #c9e2b3;
+  }
+  
+  .alert-success .alert-link {
+    color: #2b542c;
+  }
+  
+  .alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+  }
+  
+  .alert-danger hr {
+    border-top-color: #e4b9c0;
+  }
+  
+  .alert-danger .alert-link {
+    color: #843534;
+  }

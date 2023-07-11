@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Trixie - submit Documents 2</title>
+    
+    <link rel="stylesheet" href="css/ProjectFutureStyle.css">
+
+</head>
+<body>
+    <!-- these are the links for home/etc.-->
+    <nav>
+        
+    </nav>
+
+    <h2>
+        Submit Final Documents
+    </h2>
+
+    <div class="alert alert-success">
+        Success! You submitted this document.
+        <br>
+        The system has automatically notified the technical committe that there is a document to review.
+        <br>
+        The system has automatically sent an email the Client requesting an evaluation.
+    </div>
+
+    <form class="blueform" action="acceptStudentApplications2.html" method="get">
+        <h3 >Document Upload:</h3>
+        <label for="docType">Type of Document: </label>
+            <select name="studentName" id="studentName">
+                <option></option>
+                <option>Project Charter</option>
+                <option>Project Report</option>
+                <option>Project Presentation</option>
+            </select>
+        <br>
+        <label for="resume">Upload Here: </label> <input type="file" value="Upload Document Here" class="button">
+        <br>
+        
+        <input type="submit" value="Submit" class="button"> 
+        <br>
+
+    </form>
+    
+</body>
+</html>

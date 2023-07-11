@@ -1,0 +1,137 @@
+/* Styles for FCRE */
+
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 300%;
+    margin-bottom: 0px;
+}
+
+h3.blue {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #0D2B81;
+    color: white;   
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+a {
+    color: dimgrey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: firebrick;
+}
+
+q {
+    font-size: 120%;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+        
+ul.events {
+    list-style-type: none;
+}
+
+li.events {
+    padding: 15px;
+    background-color: #eeeeee;
+    margin: 6px;
+    border: 1px solid dimgrey;
+    border-radius: 10px;
+}
+
+li.selection:hover {
+    background-color: lightgray;
+}
+
+.button {
+    background-color: white;
+    padding: 6px 12px;
+    border: 1px solid darkgrey;
+    margin: 6px;
+    
+    color: dimgrey;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+}
+
+.button:hover {
+    background-color: lightgray;
+    color: firebrick;
+}
+
+.approved {
+    color: green;
+    font-weight: bold;
+}
+
+.denied {
+    color: firebrick;
+    font-weight: bold;
+}
+
+
+.blueform {
+    background-color: lightblue;
+    /*padding: 5px;*/
+    border-radius: 10px;
+}
+
+
+input {
+    margin: 4px;
+}
+
+label {
+    min-width: 130px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.no_min {
+    min-width: 0px;
+}
+
+#estDrivers {
+    max-width: 40px    
+}
+
+#street {
+    width: 400px
+}
+
+#zip {
+    width: 87px
+}
+
+.larger {
+    font-size: x-large;
+}
